@@ -1,6 +1,6 @@
 package HW_2_2_part_2;
 
-public class Truck extends Transport implements Servicable {
+public class Truck extends Bicycle implements Servicable {
 
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
