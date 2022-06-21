@@ -21,6 +21,7 @@ public class Car extends Bicycle implements Servicable {
         for (int i = 0; i < getWheelsCount(); i++) {
             updateTyre();
         }
+        super.check();
         checkEngine();
     }
 
