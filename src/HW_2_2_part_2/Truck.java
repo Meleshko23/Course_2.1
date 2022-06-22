@@ -21,10 +21,10 @@ public class Truck extends Car implements Servicable {
 
     @Override
     public void check() {
-        System.out.println("Обслуживаем " + getModelName());
-        for (int i = 0; i < getWheelsCount(); i++) {
-            updateTyre();
-        }
+//        System.out.println("Обслуживаем " + getModelName());
+//        for (int i = 0; i < getWheelsCount(); i++) {
+//            updateTyre();
+//        }
         super.check();
         checkTrailer();
     }
