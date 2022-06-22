@@ -27,7 +27,7 @@ public class Bicycle implements Servicable {
     }
 
     public void updateTyre() {
-        System.out.println("Меняем покрышку велосипеда");
+        System.out.println("Меняем покрышку");
     }
 
     @Override

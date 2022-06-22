@@ -7,13 +7,13 @@ public class Truck extends Car implements Servicable {
     }
 
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку грузовика");
-    }
+//    public void updateTyre() {
+//        System.out.println("Меняем покрышку грузовика");
+//    }
 
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель грузовика");
-    }
+//    public void checkEngine() {
+//        System.out.println("Проверяем двигатель грузовика");
+//    }
 
     public void checkTrailer() {
         System.out.println("Проверяем прицеп грузовика");
